@@ -1,0 +1,38 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* .card-hot {
+    margin-top: -111px;
+} */
+
+.card-hot span {
+    position: relative;
+    left: 221px;
+    top: -34px;
+    padding: 9px 10px;
+    border-radius: 26px;
+    background-color: red;
+    font-weight: 900;
+
+}
+
+/* .page {
+    margin-bottom: 12rem !important;
+} */
+
+@media only screen and (max-width: 688px) {
+    .carousel-item img {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .col-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col-rev p {
+        margin-top: 1rem;
+    }
+
+}
